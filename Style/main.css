@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    font-size: 1.5vw;
+}
+body{
+background: rgb(245,118,118);
+background: linear-gradient(90deg, rgba(245,118,118,0.8645833333333334) 0%, rgba(246,121,246,0.5144432773109244) 100%);;
+font-family: 'Noto Color Emoji', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+.barraNavegacion{
+    display: block;
+    position: fixed;
+    top: 0;
+   
+}
+
+.itemsNav{
+color: aliceblue;
+background-color: plum;
+padding: 8px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid beige;
+ }
+ .itemsNav:link{
+    color: aliceblue;
+background-color: plum;
+ }
+  
+ 
+ .itemsNav:visited{
+    background-color: #f7f5f5;
+    color: black;
+ }
+  
+ .itemsNav:hover{
+       color: black;
+ }
+ 
+ .encabezados{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    margin: 2px;
+    box-sizing: border-box;
+
+
+    background-image: url(../imagen1.png);
+    background-size: cover;        
+    }
+
+#encabezado_nombre{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(45, 3, 3);
+    font-size: 4vw;
+}
+
+#encabezado_nombre::selection{
+    background-color: black;
+    color:white;
+   
+}
+#encabezado_profesion{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(161, 7, 7);
+    font-size: 3vw;
+
+}
+#encabezado_profesion::selection{
+    background-color: black;
+    color:white;
+   
+}
+
+/*hace q la priemra letra del id se ponga en mayor tamaño*/
+
+#fotoPerfil{
+
+    width: 20em;
+  }
+
+.contenido{
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+
+}
+ 
+.text-white{
+  text-align: justify;
+    color: rgb(37, 13, 13);
+}
+
+
+.text-white{ /* se hace para darle display a las cosas*/
+
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin:15px;
+    padding: 10px;
+        justify-content:space-around
+  }
+
+  .ofimato{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .otrosContacto{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        padding: 10px;
+        float: right;
+        justify-content:space-around;
+        width: 20vm;
+
+  }
+
+  
+
+
+
+
+
+
+
